@@ -4,9 +4,9 @@
 ---
 
 ## 👨‍🎓 Thông tin sinh viên
-- *Họ và tên:* Nam Kiều  
-- *Mã sinh viên:* ........  
-- *Lớp:* ........  
+- *Họ và tên:* Bùi Mạnh Tuấn  
+- *Mã sinh viên:* 2451261066  
+- *Lớp:* 66TTNT1
 - *Môn học:* Nền tảng Web  
 
 ---
