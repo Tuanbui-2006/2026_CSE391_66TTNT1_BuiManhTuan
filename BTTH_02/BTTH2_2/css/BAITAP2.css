@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #3a0a3a;
+}
+
+/* ..................................*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #4b0f4b;
+}
+
+.logo {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  text-align: right;
+}
+
+/* ..................................*/
+.hero {
+  background: url("/BTTH2_2/images/ocean.jpg") center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 50px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+
+.hero-content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*........................*/
+.highlights {
+  background: #cfeeee;
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 280px;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 15px;
+  font-weight: bold;
+}
+
+.card span {
+  color: green;
+}
+
+/* ............................... */
+footer {
+  background: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer img {
+  width: 32px;
+  cursor: pointer;
+}
